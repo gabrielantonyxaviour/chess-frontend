@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #000300;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 3px;
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c79c2f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #ff3131;
+} */
+
+.select-custom ::selection {
+  background: #c79c2f;
+  color: white;
+}
+
+.select-custom-last ::selection {
+  background: #c79c2f;
+  color: black;
+}
+
+.about-hero-last {
+  display: inline;
+  color: red;
+}
+
+/* .select-custom-about::selection {
+  background: red;
+  color: white;
+}
+*/
+.select-custom-about-title::selection {
+  background: white;
+  color: #5a5a5a;
+}
+
+.crazy {
+  position: relative;
+  left: 50%;
+}
